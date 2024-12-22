@@ -1,0 +1,560 @@
+{
+  "Category": [
+    {
+      "Id": 0,
+      "ImagePath": "btn_1",
+      "Name": "Menu Ayam"
+    },
+    {
+      "Id": 1,
+      "ImagePath": "btn_2",
+      "Name": "Burger"
+    },
+    {
+      "Id": 2,
+      "ImagePath": "btn_3",
+      "Name": "Snack"
+    },
+    {
+      "Id": 3,
+      "ImagePath": "btn_4",
+      "Name": "Sosis"
+    },
+    {
+      "Id": 4,
+      "ImagePath": "btn_5",
+      "Name": "Steak"
+    },
+    {
+      "Id": 5,
+      "ImagePath": "btn_6",
+      "Name": "Hotdog"
+    },
+    {
+      "Id": 6,
+      "ImagePath": "btn_7",
+      "Name": "Minuman"
+    },
+    {
+      "Id": 7,
+      "ImagePath": "btn_8",
+      "Name": "More"
+    }
+  ],
+  "Foods": [
+    {
+      "BestFood": true,
+      "CategoryId": 0,
+      "Description": "Ayam goreng paha dengan paket nasi putih dan teh botol hemat untuk harga mahasiswa.",
+      "Id": 0,
+      "ImagePath": "paket paha ayam.jpeg",
+      "LocationId": 1,
+      "Price": 9.0,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 15,
+      "Title": "Paket 1"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 0,
+      "Description": "Ayam goreng dada dengan paket nasi putih dan teh botol hemat untuk harga mahasiswa.",
+      "Id": 1,
+      "ImagePath": "paket dada ayam.jpeg",
+      "LocationId": 1,
+      "Price": 12.0,
+      "PriceId": 1,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 18,
+      "Title": "Paket 2"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 0,
+      "Description": "Ayam goreng sayap dengan paket nasi putih dan teh botol hemat untuk harga mahasiswa.",
+      "Id": 2,
+      "ImagePath": "paket sayap ayam.jpeg",
+      "LocationId": 1,
+      "Price": 10.0,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 20,
+      "Title": "Paket 3"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 0,
+      "Description": "Menu makan ayam goreng sayap original.",
+      "Id": 3,
+      "ImagePath": "sayap ayam.png",
+      "LocationId": 1,
+      "Price": 11.0,
+      "PriceId": 1,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 22,
+      "Title": "Sayap"
+    },
+    {
+      "BestFood": true,
+      "CategoryId": 0,
+      "Description": "Menu makan ayam goreng paha bawah original.",
+      "Id": 4,
+      "ImagePath": "paha ayam.png",
+      "LocationId": 0,
+      "Price": 10.0,
+      "PriceId": 1,
+      "Star": 4.3,
+      "TimeId": 1,
+      "TimeValue": 17,
+      "Title": "Paha Bawah"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 0,
+      "Description": "Menu makan ayam goreng dada original.",
+      "Id": 5,
+      "ImagePath": "dada ayam.png",
+      "LocationId": 1,
+      "Price": 12.0,
+      "PriceId": 1,
+      "Star": 4.8,
+      "TimeId": 2,
+      "TimeValue": 35,
+      "Title": "Dada"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 0,
+      "Description": "Menu makan ayam goreng paha atas original",
+      "Id": 6,
+      "ImagePath": "paha atas ayam.png",
+      "LocationId": 1,
+      "Price": 12.0,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 21,
+      "Title": "Paha Atas"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 0,
+      "Description": "Menu makanan ayam pedas ini dilengkapi dengan saus keju, dan bebas milih jenis ayam.",
+      "Id": 7,
+      "ImagePath": "ayam pedas.png",
+      "LocationId": 0,
+      "Price": 13.0,
+      "PriceId": 1,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 23,
+      "Title": "Ayam Pedas Keju"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 0,
+      "Description": "Ayam geprek menjadi menu andalan di afc karena telah dilengkapi, cabai yang segar, ayam goreng renyah, dengan toping selada, dan timun.",
+      "Id": 8,
+      "ImagePath": "",
+      "LocationId": 1,
+      "Price": 12.0,
+      "PriceId": 1,
+      "Star": 4.3,
+      "TimeId": 1,
+      "TimeValue": 17,
+      "Title": "Ayam Geprek"
+    },
+    {
+      "BestFood": true,
+      "CategoryId": 1,
+      "Description": "Burger ayam dengan isian tomat, selada, daging ayam, mayonaise, saus tomat dan sambal.",
+      "Id": 9,
+      "ImagePath": "",
+      "LocationId": 1,
+      "Price": 10.0,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 18,
+      "Title": "Burger Ayam"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 1,
+      "Description": "Burger ayam dengan topping slice keju yang mewah.",
+      "Id": 10,
+      "ImagePath": "",
+      "LocationId": 0,
+      "Price": 11.0,
+      "PriceId": 1,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 18,
+      "Title": "Burger Ayam Keju"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 2,
+      "Description": "Snack andalan utama dari afc kentang goreng yang renyah dan nikmat.",
+      "Id": 11,
+      "ImagePath": "",
+      "LocationId": 0,
+      "Price": 6.0,
+      "PriceId": 1,
+      "Star": 4.8,
+      "TimeId": 2,
+      "TimeValue": 35,
+      "Title": "Kentang Goreng"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 2,
+      "Description": "Onion rings terdiri dari olahan bawang yang dibaluri tepung krispy, dan renyah.",
+      "Id": 12,
+      "ImagePath": "",
+      "LocationId": 1,
+      "Price": 7.0,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 21,
+      "Title": "Onion Rings"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 2,
+      "Description": "Snack kulit ayam yang renyah dan krispi.",
+      "Id": 13,
+      "ImagePath": "",
+      "LocationId": 0,
+      "Price": 8.0,
+      "PriceId": 1,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 23,
+      "Title": "Kulit Ayam"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 2,
+      "Description": "Bola ayam dengan isian daging ayam yang dioleh dengan tepung crispy, dan bumbu pilihan.",
+      "Id": 14,
+      "ImagePath": "",
+      "LocationId": 0,
+      "Price": 9.99,
+      "PriceId": 0,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 18,
+      "Title": "Bola Ayam"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 3,
+      "Description": "Sosis goreng dengan daging ayam pilihan, dan menyediakan 5 sosis.",
+      "Id": 15,
+      "ImagePath": "",
+      "LocationId": 1,
+      "Price": 7.0,
+      "PriceId": 1,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 20,
+      "Title": "Sosis Goreng"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 3,
+      "Description": "Sosis bakar dengan daging ayam pilihan, dan menyediakan 5 sosis.",
+      "Id": 15,
+      "ImagePath": "sosis bakar.png",
+      "LocationId": 1,
+      "Price": 7.0,
+      "PriceId": 1,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 20,
+      "Title": "Sosis Bakar"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 3,
+      "Description": "Sosis dengan saus bbq khas afc dan daging ayam pilihan, dan menyediakan 5 sosis.",
+      "Id": 16,
+      "ImagePath": "sosis bbq.png",
+      "LocationId": 1,
+      "Price": 7.0,
+      "PriceId": 1,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 20,
+      "Title": "Sosis BBQ"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 4,
+      "Description": "Steak ayam dengan dilengkapi kentang, buncis, wortel, dan saus bbq khas afc.",
+      "Id": 17,
+      "ImagePath": "chicken steak.png",
+      "LocationId": 1,
+      "Price": 12.0,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 15,
+      "Title": "Steak Ayam"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 5,
+      "Description": "Hotdog yang dilengkapi dengan sosis, keju, selada, tomat, dan berbagai saus andalan dari afc.",
+      "Id": 18,
+      "ImagePath": "hotdog sosis.png",
+      "LocationId": 0,
+      "Price": 10.0,
+      "PriceId": 0,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 18,
+      "Title": "Hotdong Sosis"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 5,
+      "Description": "Hotdog yang dilengkapi dengan daging ayam, keju, selada, tomat, dan berbagai saus andalan dari afc.",
+      "Id": 19,
+      "ImagePath": "hotdog ayam.png",
+      "LocationId": 1,
+      "Price": 11.0,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 0,
+      "TimeValue": 9,
+      "Title": "Hotdog Ayam"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "Es teh manis menjadi menu andalan dari afc.",
+      "Id": 20,
+      "ImagePath": "es teh.png",
+      "LocationId": 0,
+      "Price": 5.0,
+      "PriceId": 0,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 16,
+      "Title": "Es Teh Manis"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es teh tawar yang disediakan tanpa gula dan dapat menyehatkan anda.",
+      "Id": 21,
+      "ImagePath": "es teh tawar.png",
+      "LocationId": 1,
+      "Price": 4.0,
+      "PriceId": 1,
+      "Star": 4.8,
+      "TimeId": 1,
+      "TimeValue": 22,
+      "Title": "Es Teh Tawar"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es teh yang dikasih perasan lemon yang membuat anda menjadi segar kembali.",
+      "Id": 22,
+      "ImagePath": "es lemon tea.png",
+      "LocationId": 0,
+      "Price": 5.0,
+      "PriceId": 0,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 12,
+      "Title": "Es Lemon Tea"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es jeruk yang dapat menyegarkan anda dari hawa panas.",
+      "Id": 23,
+      "ImagePath": "es jeruk.png",
+      "LocationId": 0,
+      "Price": 5.0,
+      "PriceId": 0,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 17,
+      "Title": "Es Jeruk"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es lemon yang sehat dan memiliki banyak vitamin c.",
+      "Id": 23,
+      "ImagePath": "es lemon.png",
+      "LocationId": 0,
+      "Price": 5.0,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 19,
+      "Title": "Es Lemon"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es coklat yang dapat mengembalikan mood anda menjadi bahagia dan semangat.",
+      "Id": 24,
+      "ImagePath": "es coklat.png",
+      "LocationId": 0,
+      "Price": 6.0,
+      "PriceId": 0,
+      "Star": 4.2,
+      "TimeId": 0,
+      "TimeValue": 9,
+      "Title": "Es Coklat"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es buah dengan memiliki banyak buah, seperti nangka, jeruk, apel, strawberry, mangga, pisang, dan pear.",
+      "Id": 25,
+      "ImagePath": "es buah.png",
+      "LocationId": 0,
+      "Price": 7.0,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 12,
+      "Title": "Es Buah"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es kopi dengan olahan cappuchino khas afc.",
+      "Id": 26,
+      "ImagePath": "es cappuchino.png",
+      "LocationId": 0,
+      "Price": 7.0,
+      "PriceId": 0,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 12,
+      "Title": "Cappuchino"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es kopi dengan olahan mocchachino khas afc.",
+      "Id": 27,
+      "ImagePath": "es mocchachino.png",
+      "LocationId": 1,
+      "Price": 7.0,
+      "PriceId": 0,
+      "Star": 4.3,
+      "TimeId": 1,
+      "TimeValue": 15,
+      "Title": "Moccachino"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es coklat yang diblender dikasih topping meses dan keju.",
+      "Id": 28,
+      "ImagePath": "milkshake coklat.png",
+      "LocationId": 0,
+      "Price": 9.0,
+      "PriceId": 0,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 18,
+      "Title": "Coklat Milkshake"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es vanilla yang diblender dikasih topping meses dan keju.",
+      "Id": 29,
+      "ImagePath": "milkshake vanilla.png",
+      "LocationId": 1,
+      "Price": 9.0,
+      "PriceId": 0,
+      "Star": 4.4,
+      "TimeId": 1,
+      "TimeValue": 17,
+      "Title": "Vanilla Milkshake"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es strawberry yang diblender dikasih topping meses dan keju.",
+      "Id": 30,
+      "ImagePath": "milkshake strawberry.png",
+      "LocationId": 0,
+      "Price": 9.0,
+      "PriceId": 0,
+      "Star": 4.8,
+      "TimeId": 1,
+      "TimeValue": 20,
+      "Title": "Strawberry Milkshake"
+    },
+    {
+      "BestFood": false,
+      "CategoryId": 6,
+      "Description": "es kopi yang diblender dikasih topping meses dan keju.",
+      "Id": 31,
+      "ImagePath": "milkshake kopi.png",
+      "LocationId": 1,
+      "Price": 9.0,
+      "PriceId": 1,
+      "Star": 4.7,
+      "TimeId": 0,
+      "TimeValue": 8,
+      "Title": "Kopi Milkshake"
+    }
+  ],
+  "Location": [
+    {
+      "Id": 0,
+      "loc": "Yogyakarta sleman"
+    },
+    {
+      "Id": 1,
+      "loc": "Surakarta kartosuro"
+    }
+  ],
+  "Price": [
+    {
+      "Id": 0,
+      "Value": "$4.000 - $9.000"
+    },
+    {
+      "Id": 1,
+      "Value": "$9.000 - $13.000"
+    },
+    {
+      "Id": 2,
+      "Value": "lebih dari $13.000"
+    }
+  ],
+  "Time": [
+    {
+      "Id": 0,
+      "Value": "0 - 10 min"
+    },
+    {
+      "Id": 1,
+      "Value": "10 - 30 min"
+    },
+    {
+      "Id": 2,
+      "Value": "more than 30 min"
+    }
+  ]
+}
