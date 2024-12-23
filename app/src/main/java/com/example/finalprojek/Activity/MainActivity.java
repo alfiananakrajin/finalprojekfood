@@ -10,10 +10,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.finalprojek.Adapter.BestFoodsAdapter;
+import com.example.finalprojek.Adapter.CategoryAdapter;
+import com.example.finalprojek.Domain.Category;
 import com.example.finalprojek.Domain.Foods;
 import com.example.finalprojek.Domain.Location;
 import com.example.finalprojek.Domain.Price;
@@ -42,6 +45,7 @@ public class MainActivity extends BaseActivity {
         initTime();
         initPrice();
         initBestFood();
+        initCategory();
     }
 
     private void initBestFood() {
@@ -71,7 +75,33 @@ public class MainActivity extends BaseActivity {
             }
         });
     }
+    private void initCategory() {
+        DatabaseReference myRef=database.getReference("Category");
+        binding.progressBarCategory.setVisibility(View.VISIBLE);
+        ArrayList<Category> list=new ArrayList<>();
 
+        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.exists()){
+                    for (DataSnapshot issue: snapshot.getChildren()){
+                        list.add(issue.getValue(Category.class));
+                    }
+                    if (list.size()>0){
+                        binding.categoryView.setLayoutManager(new GridLayoutManager(MainActivity.this,4));
+                        RecyclerView.Adapter adapter=new CategoryAdapter(list);
+                        binding.categoryView.setAdapter(adapter);
+                    }
+                    binding.categoryView.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
     private void initLocation() {
         DatabaseReference myRef=database.getReference("Location");
         ArrayList<Location> list=new ArrayList<>();
