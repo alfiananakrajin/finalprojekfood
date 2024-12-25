@@ -21,10 +21,16 @@ public class IntroActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding=ActivityIntroBinding.inflate(getLayoutInflater());
+        EdgeToEdge.enable(this);
         setContentView(binding.getRoot());
 
         setVariable();
         getWindow().setStatusBarColor(Color.parseColor("#FFE4B5"));
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
     }
 
     private void setVariable(){
