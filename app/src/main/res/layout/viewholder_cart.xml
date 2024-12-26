@@ -29,10 +29,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="Title"
-            android:textStyle="bold"
+            android:text="Judul Makanan"
             android:textColor="@color/blue_grey"
             android:textSize="16sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/pic"
             app:layout_constraintTop_toTopOf="@+id/pic" />
 

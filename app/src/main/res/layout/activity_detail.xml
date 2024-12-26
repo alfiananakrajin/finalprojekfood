@@ -69,7 +69,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Title"
+                    android:text="Judul Makanan"
                     android:textColor="@color/blue_grey"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -106,10 +106,9 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/rateTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5 Rating"
+                    android:text="4,5 Bintang"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/ratingBar"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -129,7 +128,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
-                    android:text="15 min"
+                    android:text="15 menit"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/imageView11"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -141,7 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Details"
+                android:text="Deskripsi"
                 android:textColor="@color/blue_grey"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -166,7 +165,7 @@
                     android:id="@+id/descriptionTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Quantity"
+                    android:text="Jumlah"
                     android:textColor="@color/blue_grey"
                     android:textSize="18sp"
                     android:textStyle="bold"
