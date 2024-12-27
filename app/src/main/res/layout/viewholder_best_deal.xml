@@ -19,7 +19,8 @@
 
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ayam_pedas" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="0dp"
@@ -35,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Judul"
+                android:text="Ayam Pedas"
                 android:textColor="@color/blue_grey"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -101,7 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:text="$0"
+                android:text="$13.000"
                 android:textColor="@color/red"
                 android:textSize="18sp"
                 android:textStyle="bold"

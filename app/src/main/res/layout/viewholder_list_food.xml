@@ -18,7 +18,8 @@
             android:layout_height="111dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/burger_ayam_keju" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -34,7 +35,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Judul Makanan"
+                android:text="Burger Ayam Keju"
                 android:textColor="@color/blue_grey"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -69,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="16dp"
-                android:text="$0"
+                android:text="$12.000"
                 android:textColor="@color/red"
                 android:textSize="18sp"
                 android:textStyle="bold"

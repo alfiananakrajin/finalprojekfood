@@ -30,7 +30,8 @@
                     android:layout_height="400dp"
                     android:scaleType="centerCrop"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ayam_geprek_jpg" />
 
                 <ImageView
                     android:id="@+id/favBtn"
@@ -49,10 +50,10 @@
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="24dp"
                     android:padding="8dp"
-                    app:tint="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/arrow" />
+                    app:srcCompat="@drawable/arrow"
+                    app:tint="@color/black" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
